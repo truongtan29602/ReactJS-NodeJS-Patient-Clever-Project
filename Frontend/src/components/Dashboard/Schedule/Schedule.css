@@ -1,0 +1,94 @@
+.react-datepicker-popper{
+	z-index: 10 !important;
+}
+.rbc-month-header{
+	color: white !important;
+	background-color: #3965F3 !important;
+}
+.rbc-toolbar-label{
+	color: #3965F3 !important;
+	font-size: 20px;
+	font-weight: 700;
+}
+.react-datepicker__day--keyboard-selected, .react-datepicker__day--selected{
+	background-color: #3965F3 !important;
+}
+.rbc-show-more{
+	color:#3965F3 !important;
+}
+.rbc-show-more:hover, .rbc-show-more:focus{
+	color:#194bef !important;
+}
+.rbc-event, .rbc-day-slot .rbc-background-event{
+	background-color: #3965F3 !important;
+}
+.rbc-event:focus, .rbc-day-slot .rbc-background-event:focus{
+	border-color: #194bef !important;
+}
+.rbc-event-content{
+	background-color: #3965F3 !important;
+}
+.rbc-event-content:active{
+	border: none !important;
+}
+.shedule-wrapper{
+	text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    font-family: 'Poppins', sans-serif !important;
+}
+.s-a-e-title::placeholder, .s-a-e-start-date::placeholder, .s-a-e-end-date::placeholder{
+    color: #c2c2c2;
+}
+.s-a-e-title, .s-a-e-start-date, .s-a-e-end-date{
+    width: 250px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 900px;
+    text-indent: 10px;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+	margin-bottom: 2px;
+}
+.s-a-e-title:focus, .s-a-e-start-date:focus, .s-a-e-end-date:focus{
+    border: 2px solid #3965F3;
+}
+.s-a-e-title:focus::placeholder, .s-a-e-start-date:focus::placeholder, .s-a-e-end-date:focus::placeholder{
+    color: transparent;
+}
+
+.schedule-header-wrapper{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+	font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.s-a-e-add-btn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #3965F3;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}

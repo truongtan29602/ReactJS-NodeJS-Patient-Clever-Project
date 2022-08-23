@@ -1,0 +1,54 @@
+.my-team-wrapper {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 5%;
+}
+
+.my-team-header {
+    font-family: Poppins;
+    font-weight: bolder;
+}
+
+.m-t-members-wrapper {
+    width: calc(95% - 20px);
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    font-size: 12px;
+}
+
+
+.member-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.member-profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.member-name {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.member-position {
+    font-size: 13px;
+}

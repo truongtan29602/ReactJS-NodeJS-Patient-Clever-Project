@@ -1,0 +1,93 @@
+.navbar-wrapper {
+    position: -webkit-sticky;
+    /* Safari & IE */
+    position: fixed;
+    z-index: 2;
+    max-height: 750px;
+    height: 1200px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+}
+
+.navbar-logo-wrapper {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    color: #878a98;
+}
+
+.selected-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border-inline-end: 5px solid #3965F3;
+    margin-right: -5px;
+}
+
+.selected {
+    color: #3965F3;
+    height: 40px;
+}
+
+.selected:hover {
+    color: #194bef !important;
+}
+
+.icon {
+    display: flex;
+    height: 30px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #9FA4B8;
+}
+
+.sign-out-icon {
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #878a98;
+    cursor: pointer;
+}
+
+.sign-out-icon:hover {
+    color: #9FA4B8;
+}
+
+.navbar-logo {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}

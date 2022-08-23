@@ -1,0 +1,52 @@
+.my-balance-wrapper {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.my-balance-header {
+    font-family: Poppins;
+    font-weight: bolder;
+}
+.my-balance-box{
+    width: 90%;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #6184F5 80%, #3965F3 20%);
+    border-radius: 15px;
+    margin-left: 2%;
+    color: white;
+    font-family: Poppins;
+}
+.my-balance-icon-wrapper{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color:#3965F3 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.my-balance-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-balance-income-icon{
+    width: 50px;
+    width: 50px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
+    filter:         drop-shadow(5px 5px 5px rgb(255, 255, 255)); 
+}

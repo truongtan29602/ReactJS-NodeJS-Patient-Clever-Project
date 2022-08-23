@@ -1,0 +1,63 @@
+.recent-patients-wrapper{
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+}
+.recent-patients-header{
+    font-size: 20px;
+    font-weight:bolder;
+    color: #000000;
+}
+.recent-patients-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.recent-patient-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    margin-top: 1%;
+    font-weight: bold;
+    background-color: white;
+}
+.recent-patient-avatar-wrapper{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recent-patient-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.recent-patient-name{
+    width: 150px;
+    text-align: start;
+}
+.recent-patient-date{
+    width: 100px;
+    text-align: start;
+}
+.recent-patient-age{
+    width: 50px;
+    text-align: start;
+}
+.recent-patient-diagnosis{
+    width: 150px;
+    text-align: start;
+}
+.recent-patient-room{
+    width: 150px;
+    text-align: start;  
+    
+    margin-right: 20px;  
+}

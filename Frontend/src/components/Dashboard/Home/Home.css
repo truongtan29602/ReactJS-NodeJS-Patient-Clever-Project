@@ -1,0 +1,29 @@
+.home-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.content-wrapper{
+    width: 75%;
+}
+
+.my-profile-main-wrapper{
+    position: -webkit-sticky; /* Safari & IE */
+    position: fixed;
+    z-index: 2;
+    max-height: 750px;
+    height: 1200px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 65px;
+    background-color: #f3f3f3;
+    margin-left: 70%;
+}

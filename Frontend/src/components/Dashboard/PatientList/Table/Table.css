@@ -1,0 +1,10 @@
+.MuiTableHead-root {
+    color: white !important;
+    background-color: #3965F3 !important;
+}
+
+.table-profile-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}

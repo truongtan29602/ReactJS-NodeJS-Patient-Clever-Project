@@ -1,0 +1,19 @@
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.content-container {
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 60px);
+    background-color: #f3f3f3;
+}
+
+.main-content-wrapper {
+    width: 100%;
+}

@@ -1,0 +1,49 @@
+.my-profile-sub-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: -39%;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.my-profile-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 20px 25px 0 0;
+}
+
+.my-profile-info-background {
+    border-radius: 25px 25px 0 0;
+    max-width: 100%;
+}
+
+.my-profile-info-avatar {
+    max-width: 125px;
+    max-height: 125px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: solid white 10px;
+    margin-top: -90px;
+}
+
+.my-profile-info-name {
+    color: #999999;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.my-profile-info-position {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: bold;
+}
+

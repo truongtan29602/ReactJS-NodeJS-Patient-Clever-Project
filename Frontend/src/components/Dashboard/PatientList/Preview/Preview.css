@@ -1,0 +1,93 @@
+.preview-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.preview-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #3965F3;
+    color: white;
+    font-size: 18px;
+    font-weight: 900px;
+
+}
+
+.preview-basic-info-wrapper {
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.preview-avatar {
+    width: 120px;
+    height: 130px;
+    object-fit: cover;
+    border: #C2C2C2 solid 2px;
+}
+
+.preview-basic-info-content {
+    padding-top: 8px;
+}
+
+.preview-gender {
+    text-transform: capitalize;
+}
+
+.preview-subheader {
+    width: 100%;
+    border-top: #3965F3 2px solid;
+    border-bottom: #3965F3 2px solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.preview-contact-info-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.preview-medical-info-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.preview-note-textarea {
+    width: 375px;
+    height: 80px;
+    resize: none;
+    text-indent: 20px;
+    color: black;
+}
+
+textarea {
+    font-family: "Poppins", sans-serif;
+
+}

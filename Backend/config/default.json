@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://trkitan296:QwRhei0m1j3j5aWq@patientclever.2l7tf.mongodb.net/PatientClever?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
+}
